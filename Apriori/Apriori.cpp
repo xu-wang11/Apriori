@@ -61,7 +61,7 @@ void Apriori::run()
 	{
 		cout << K.size() << " " << K.begin()->size()<<endl;
 		generateNext(K, KPlus);
-		//addToResult(KPlus);
+		addToResult(KPlus);
 		
 		K.clear();
 		
